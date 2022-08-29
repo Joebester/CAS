@@ -11,19 +11,20 @@ import clsx from 'clsx';
 import React, { useState } from 'react';
 
 import Lottie from 'react-lottie-player'
-import Notification from '../../Assets/Lottie/email.json'
+import Notification from '../../Assets/Lottie/football.json'
 import logo from '../../Assets/Images/logo_1.png'
 import Auth from 'MyApp/Components/Auth';
 import { useWindowWidth } from '@react-hook/window-size'
+import { MDBBtn } from 'mdb-react-ui-kit'
 
 const useStyles = makeStyles(theme => ({
     root: {
-        background: `linear-gradient(to right, ${theme.palette.secondary.light} 0%, ${darken(
-            theme.palette.secondary.dark,
+        background: `linear-gradient(to right, ${theme.palette.success.dark} 0%, ${darken(
+            theme.palette.info.dark,
             0.5
         )} 100%)`,
         color: theme.palette.primary.contrastText,
-        height: '100%',
+        height: '100%'
     }
 }));
 
@@ -44,7 +45,7 @@ function Login() {
                         <div className="flex flex-col flex-grow-0 items-center text-white text-center md:flex-shrink-0 md:flex-1" style={{ paddingTop: 50, minWidth: width - 400 }}>
                             <FuseAnimate animation="transition.slideUpIn" delay={400}>
                                 <Typography variant="h1">
-                                    <div style={{ textAlign: 'center' }}>Welcome to SMS Ticket</div>
+                                    <h1 style={{ textAlign: 'center' }} className="head">Welcome to Football Admin Dashboard</h1>
                                 </Typography>
                             </FuseAnimate>
                             <FuseAnimate animation="transition.expandIn">
@@ -78,6 +79,7 @@ function Login() {
                                                     InputLabelProps={{
                                                         shrink: true
                                                     }}
+                                                    className="input"
                                                 />
                                             </div>
                                             <div className='pad-form'>
@@ -96,19 +98,11 @@ function Login() {
                                                 />
                                             </div>
                                             <div className='pad-form'>
-                                                <Button
-                                                    variant="contained"
-                                                    color="secondary"
-                                                    style={{ backgroundColor: '#d90429' }}
-                                                    // className="w-full mt-16"
-                                                    aria-label="LOG IN"
-                                                    size='large'
-                                                    fullWidth
-                                                    onClick={Login}
-                                                // disabled={!isFormValid()}
-                                                >
-                                                    Login
-                                                </Button>
+                                                <MDBBtn
+                                                    rounded
+                                                    color='success'
+                                                    className='btn'
+                                                >Login</MDBBtn>
                                             </div>
 
 

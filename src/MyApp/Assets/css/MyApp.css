@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Games';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Games'), url('../Fonts/Games.woff') format('woff');
+}
+@font-face {
+    font-family: 'la';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Games'), url('../Fonts/NotoSansLao-Regular.ttf') format('woff');
+}
 .pad-form{
     padding-top: 25px!important;
 }
@@ -9,4 +21,25 @@ label{
 }
 .pad-bottom{
     padding-bottom: 50px;
+}
+h1.head{
+    font-size: 35px!important;
+}
+.head{
+    font-family: "Games"!important;
+}
+body, h1, h2, h3, h4, h5, h6, div, b, u, label{
+    font-family: "la"!important;
+}
+
+label{
+    font-size: 16px!important;
+}
+.MuiInputBase-input{
+    padding: 5px 5px!important;
+    font-size: 14px!important;
+}
+.btn{
+    width: 100%;
+    font-size: 16px!important;
 }
