@@ -723,7 +723,7 @@ const themesConfig = {
 			},
 			secondary: {
 				light: '#F8F5F2',
-				main: '#E6DED5',
+				main: '#ff9f1c',
 				dark: '#D5C8BA',
 				contrastText: '#fff'
 			},
