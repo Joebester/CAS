@@ -15,28 +15,30 @@ export const routerConfig = [
 				url: '/app/dashboard'
 			}
 		]
-	}, {
-		id: 'notification',
-		title: 'Notification',
-		translate: 'Notification',
-		type: 'group',
-		icon: 'apps',
-		children: [
-			{
-				id: 'component101',
-				title: 'Notification',
-				translate: 'Notification',
-				type: 'item',
-				icon: 'notifications_active',
-				url: '/app/notification',
-				badge: {
-					title: 25,
-					bg: '#d90429',
-					fg: '#FFFFFF'
-				}
-			}
-		]
-	}, {
+	},
+	// {
+	// 	id: 'notification',
+	// 	title: 'Notification',
+	// 	translate: 'Notification',
+	// 	type: 'group',
+	// 	icon: 'apps',
+	// 	children: [
+	// 		{
+	// 			id: 'component101',
+	// 			title: 'Notification',
+	// 			translate: 'Notification',
+	// 			type: 'item',
+	// 			icon: 'notifications_active',
+	// 			url: '/app/notification',
+	// 			badge: {
+	// 				title: 25,
+	// 				bg: '#d90429',
+	// 				fg: '#FFFFFF'
+	// 			}
+	// 		}
+	// 	]
+	// }, 
+	{
 		id: 'Mange',
 		title: 'Manage',
 		translate: 'Manage',
@@ -45,42 +47,64 @@ export const routerConfig = [
 		children: [
 			{
 				id: 'component2',
-				title: 'Mange SMS',
-				translate: 'SMS',
+				title: 'Mange Admin',
+				translate: 'Admin',
 				type: 'item',
 				icon: 'textsms',
-				url: '/app/manage_sms'
+				url: '/app/admin'
 			}, {
 				id: 'component3',
-				title: 'Manage Language',
-				translate: 'Language',
+				title: 'Manage user',
+				translate: 'User',
 				type: 'item',
 				icon: 'language',
-				url: '/app/language'
+				url: '/app/user'
 			}, {
 				id: 'component4',
-				title: 'Manage Link Survey',
-				translate: 'Link Survey',
+				title: 'Manage News',
+				translate: 'News',
 				type: 'item',
 				icon: 'link',
 				url: '/app/survey'
-			}
-		]
-	}, {
-		id: 'Report',
-		title: 'Report',
-		translate: 'Report',
-		type: 'group',
-		icon: 'apps',
-		children: [
-			{
-				id: 'component30',
-				title: 'report sms',
-				translate: 'Report SMS',
+			}, {
+				id: 'component5',
+				title: 'Manage Content',
+				translate: 'Content',
 				type: 'item',
-				icon: 'insert_drive_file',
-				url: '/app/report_sms'
+				icon: 'link',
+				url: '/app/content'
+			}, {
+				id: 'component6',
+				title: 'Manage Football Analyze',
+				translate: 'Football Analyze',
+				type: 'item',
+				icon: 'link',
+				url: '/app/Football_Analyze'
+			}, {
+				id: 'component6',
+				title: 'Manage Youtube Video',
+				translate: 'Youtube Video',
+				type: 'item',
+				icon: 'link',
+				url: '/app/Youtube_Video'
 			}
 		]
 	},
+	// {
+	// 	id: 'Report',
+	// 	title: 'Report',
+	// 	translate: 'Report',
+	// 	type: 'group',
+	// 	icon: 'apps',
+	// 	children: [
+	// 		{
+	// 			id: 'component30',
+	// 			title: 'report sms',
+	// 			translate: 'Report SMS',
+	// 			type: 'item',
+	// 			icon: 'insert_drive_file',
+	// 			url: '/app/report_sms'
+	// 		}
+	// 	]
+	// },
 ];

@@ -18,7 +18,7 @@ function FooterLayout1(props) {
 				style={{ backgroundColor: footerTheme.palette.background.paper }}
 			>
 				<Toolbar className="min-h-48 md:min-h-64 px-8 sm:px-12 py-0 flex items-center overflow-x-auto">
-					<Typography>Copy Right by Lao Telecom @ 2022</Typography>
+					<Typography>Copy Right by KK168bet.com @ 2022</Typography>
 				</Toolbar>
 			</AppBar>
 		</ThemeProvider>

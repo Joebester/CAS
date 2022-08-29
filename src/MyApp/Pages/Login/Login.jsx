@@ -1,6 +1,5 @@
 import FuseAnimate from '@fuse/core/FuseAnimate';
 import { Grid } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { makeStyles } from '@material-ui/core/styles';
@@ -12,15 +11,15 @@ import React, { useState } from 'react';
 
 import Lottie from 'react-lottie-player'
 import Notification from '../../Assets/Lottie/football.json'
-import logo from '../../Assets/Images/logo_1.png'
 import Auth from 'MyApp/Components/Auth';
 import { useWindowWidth } from '@react-hook/window-size'
 import { MDBBtn } from 'mdb-react-ui-kit'
+import logo from '../../Images/logo.webp'
 
 const useStyles = makeStyles(theme => ({
     root: {
-        background: `linear-gradient(to right, ${theme.palette.success.dark} 0%, ${darken(
-            theme.palette.info.dark,
+        background: `linear-gradient(to right, ${theme.palette.warning.dark} 0%, ${darken(
+            theme.palette.error.dark,
             0.5
         )} 100%)`,
         color: theme.palette.primary.contrastText,
@@ -100,7 +99,7 @@ function Login() {
                                             <div className='pad-form'>
                                                 <MDBBtn
                                                     rounded
-                                                    color='success'
+                                                    color='warning'
                                                     className='btn'
                                                 >Login</MDBBtn>
                                             </div>

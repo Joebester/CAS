@@ -8,6 +8,7 @@ import { showMessage } from 'app/store/fuse/messageSlice';
 import auth0Service from 'app/services/auth0Service';
 import firebaseService from 'app/services/firebaseService';
 import jwtService from 'app/services/jwtService';
+import logo from '../../../MyApp/Images/logo.webp'
 
 export const setUserDataAuth0 = tokenData => async dispatch => {
 	const user = {
@@ -190,7 +191,7 @@ const initialState = {
 	role: [], // guest
 	data: {
 		displayName: 'User profile',
-		photoURL: 'assets/images/ltc/logo.ico',
+		photoURL: logo,
 		email: '1kipjoezarker2019@gmail.com',
 		shortcuts: ['calendar', 'mail', 'contacts', 'todo']
 	}
