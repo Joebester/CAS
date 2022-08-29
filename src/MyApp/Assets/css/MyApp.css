@@ -43,3 +43,11 @@ label{
     width: 100%;
     font-size: 16px!important;
 }
+u, div{
+    font-size: 14px!important;
+    text-decoration: none!important;
+}
+.bread:hover{
+    cursor: pointer;
+    color: #FF9E1C;
+}

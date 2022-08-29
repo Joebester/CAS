@@ -50,42 +50,42 @@ export const routerConfig = [
 				title: 'Mange Admin',
 				translate: 'Admin',
 				type: 'item',
-				icon: 'textsms',
+				icon: 'admin_panel_settings',
 				url: '/app/admin'
 			}, {
 				id: 'component3',
 				title: 'Manage user',
 				translate: 'User',
 				type: 'item',
-				icon: 'language',
+				icon: 'people_alt',
 				url: '/app/user'
 			}, {
 				id: 'component4',
 				title: 'Manage News',
 				translate: 'News',
 				type: 'item',
-				icon: 'link',
-				url: '/app/survey'
+				icon: 'branding_watermark',
+				url: '/app/news'
 			}, {
 				id: 'component5',
 				title: 'Manage Content',
 				translate: 'Content',
 				type: 'item',
-				icon: 'link',
+				icon: 'topic',
 				url: '/app/content'
 			}, {
 				id: 'component6',
 				title: 'Manage Football Analyze',
 				translate: 'Football Analyze',
 				type: 'item',
-				icon: 'link',
+				icon: 'sports_soccer',
 				url: '/app/Football_Analyze'
 			}, {
 				id: 'component6',
 				title: 'Manage Youtube Video',
 				translate: 'Youtube Video',
 				type: 'item',
-				icon: 'link',
+				icon: 'play_circle_outline',
 				url: '/app/Youtube_Video'
 			}
 		]
