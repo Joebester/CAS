@@ -7,10 +7,10 @@ const settingsConfig = {
 	animations: true,
 	direction: 'ltr', // rtl, ltr
 	theme: {
-		main: 'ltc1',
+		main: 'football2',
 		navbar: 'mainThemeDark',
 		toolbar: 'mainThemeLight',
-		footer: 'mainThemeLight'
+		footer: 'mainThemeDark'
 	}
 };
 

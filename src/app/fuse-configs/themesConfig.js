@@ -690,6 +690,56 @@ const themesConfig = {
 		status: {
 			danger: 'orange'
 		}
+	},football: {
+		palette: {
+			type: 'light',
+			primary: {
+				light: '#C2C8D2',
+				main: '#2ec4b6',
+				dark: '#16213A'
+			},
+			secondary: {
+				light: '#C2C8D2',
+				main: '##2ec4b6',
+				dark: '#16213A',
+				contrastText: '#FFFFFF'
+			},
+			background: {
+				paper: '#fff',
+				default: '#fff'
+			},
+			error: red
+		},
+		status: {
+			danger: 'orange'
+		}
+	},football2: {
+		palette: {
+			type: 'dark',
+			primary: {
+				light: '#C9CACE',
+				main: '#ff9f1c',
+				dark: '#23262E'
+			},
+			secondary: {
+				light: '#F8F5F2',
+				main: '#E6DED5',
+				dark: '#D5C8BA',
+				contrastText: '#fff'
+			},
+			background: {
+				paper: '#31343E',
+				default: '#2A2D35'
+			},
+			error: {
+				light: '#F7EAEA',
+				main: '#EBCECE',
+				dark: '#E3B9B9'
+			}
+		},
+		status: {
+			danger: 'orange'
+		}
 	},
 };
 
